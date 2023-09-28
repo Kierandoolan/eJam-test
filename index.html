@@ -13,10 +13,10 @@
 <div class="container-fluid">
   <div class="alert alert-info mt-4 banner " role="alert">
     <div class = "row">
-        <div class = col-3><i class="fa-regular fa-circle-check"></i> 30-DAY SATISFACTION GUARANTEE </div>
-        <div class = col-3> <i class="fa-solid fa-truck"></i> Free delivery on orders over $40.00 </div>
-        <div class = col-3><i class="fa-regular fa-heart"></i> 50.000+ HAPPY CUSTOMERS </div>
-        <div class = col-3><i class="fa-solid fa-circle-check"></i>100% Money Back Guarantee</div>
+        <div class ="col-3 banner-writing"><i class="fa-regular fa-circle-check"></i> 30-DAY SATISFACTION GUARANTEE </div>
+        <div class = "col-3 banner-writing"> <i class="fa-solid fa-truck"></i> Free delivery on orders over $40.00 </div>
+        <div class = "col-3 banner-writing"><i class="fa-regular fa-heart"></i> 50.000+ HAPPY CUSTOMERS </div>
+        <div class = "col-3 banner-writing"><i class="fa-solid fa-circle-check"></i>100% Money Back Guarantee</div>
     </div>
   </div>
 </div>
@@ -34,15 +34,15 @@
 
 
     <div class="main-section text-center bg-white mt-4">
-        <h1>Wait ! your order in progress.</h1>
-        <h4 class = heading>Lorem ipsum dolor sit amet, consectetur adipiscing</h4>
+        <h1 class = "heading">Wait ! your order in progress.</h1>
+        <h4 class = "sub-heading" >Lorem ipsum dolor sit amet, consectetur adipiscing</h4>
     
     </div>
 
     <div class="row step-section">
-        <div class = col-3><i class="fa-sharp fa-solid fa-circle-check" style="color: #82ee53;"></i>Step 1 : Cart Review</div>
-        <div class = col-3><i class="fa-sharp fa-solid fa-circle-check" style="color: #82ee53;"></i>Step 2 : Checkout</div>
-        <div class = col-3><i class="fa-solid fa-circle-pause" style="color: #397aac;"></i>Step 3 : Special Offer</div>
+        <div class = col-3><i class="fa-sharp fa-solid fa-circle-check" style="color: #82ee53;"></i> Step 1 : Cart Review</div>
+        <div class = col-3><i class="fa-sharp fa-solid fa-circle-check" style="color: #82ee53;"></i> Step 2 : Checkout</div>
+        <div class = col-3><i class="fa-solid fa-circle-pause" style="color: #397aac;"></i> Step 3 : Special Offer</div>
         <div class = col-3><i class="fa-regular fa-circle-pause" style="color: #a30000;"></i> Step 4 : Confirmation </div>
         
     </div>
@@ -51,48 +51,57 @@
 
     <div class="row">
       <div class="col-md-6">
-          <img src="product-image.jpg" alt="Product Image" class="img-fluid">
+          <img src="assets/media/product-ejam.png" alt="Product Image" class="img-fluid">
+          <img src="user-avatar.jpg" class="mr-3" alt="User Avatar" width="64">
+                <div class="media-body">
+                    <h5 class="mt-0">Customer Name</h5>
+                    <p>Review text goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="text-warning">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
       </div>
+    
       <div class="col-md-6">
-          <h1>Product Name</h1>
-          <p>Description of the product goes here.</p>
-          <p>Price: $99.99</p>
-          <button class="btn btn-primary">Add to Cart</button>
-      </div>
-  </div>
-
-  <hr>
-
-  <div class="row">
-      <div class="col-md-12">
-          <h2>Customer Reviews</h2>
-          <div class="media">
-              <img src="user-avatar.jpg" class="mr-3" alt="User Avatar" width="64">
-              <div class="media-body">
-                  <h5 class="mt-0">Customer Name</h5>
-                  <p>Review text goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <div class="text-warning">
-                      <span class="fa fa-star"></span>
-                      <span class="fa fa-star"></span>
-                      <span class="fa fa-star"></span>
-                      <span class="fa fa-star"></span>
-                      <span class="fa fa-star"></span>
-                  </div>
-              </div>
+          <p class ="normal-heading"><span class="blue-heading">ONE TIME ONLY</span> price for 6 extra Clarifion for only <span class="blue-heading">$14 each</span> ($84.00 total!)</p>
+        <div class ="row">
+          <div class ="image-background col-3">
+            <img src="assets/media/sub-product.png" alt="Product Image" class="img-fluid">
+            </div>
+          <div class ="col-9 clarifion">
+          <p>Clarifion Air Ionizer</p>
+          <div class="text-warning">
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
           </div>
+          <p class ="radio"> <i class="fa-solid fa-circle-dot" style="color: #1ca0f2;"></i> 12 left in stock</p>
+          <p class ="simply">Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</p>
+        </div>
+        <div class = "product-info">
+        <p><i class="fa-solid fa-check" style="color: #2C7EF8;"></i> Negative Ion Technology may <b>help with allergens</b></p>
+        <p><i class="fa-solid fa-check" style="color: #2C7EF8;"></i> Designed for <b>air rejuvenation </b></p>
+        <p><i class="fa-solid fa-check" style="color: #2C7EF8;"></i><b> Perfect for every room</b> in all types of places.</p>
+        </div>
+        <div class = "save col-12">
+            <i class="fa-regular fa-percent background-percent" style="color: #2c7ef8;"></i> Save 53% and get 6 extra Clarifision for only $14 Each.
+        </div>
+        <button class="my-button col-12" id="myButton" onclick="alert('Select me for the Job!')">Yes - Claim my discount</button>
+        </div>
+        <h2>30-Day Guarantee</h2>
+        <p>We are confident in the quality of our products. If you are not completely satisfied with your purchase, you may return it within 30 days for a full refund.</p>
       </div>
+    </div>
+
   </div>
 
-  <!-- Add more reviews here -->
 
-  <hr>
-
-  <div class="row">
-      <div class="col-md-12">
-          <h2>30-Day Guarantee</h2>
-          <p>We are confident in the quality of our products. If you are not completely satisfied with your purchase, you may return it within 30 days for a full refund.</p>
-      </div>
-  </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
