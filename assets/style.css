@@ -153,3 +153,68 @@
     display: inline-flex;
 }
 
+.customer {
+    height:48px;
+    width:48px;
+}
+
+.verified {
+    color: #5BB59A;
+}
+
+.name {
+    color: #333333;
+    font-size: 14px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 14px;
+    word-wrap: break-word
+}
+
+table, th, td {
+    color: #4D5254;
+    font-size: 12px;
+    font-family: Manrope;
+    border: 1px solid;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+#no-thanks {
+    background:#fff;
+    color:#F82C2C;
+    font-size:18px;
+    font-family: Manrope;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.guarantee-para {
+    color: #4D5254;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 400;
+    line-height: 22.40px;
+    word-wrap: break-word;
+}
+
+footer{
+    background-color: #252F3D;
+    height:88px;
+}
+
+.left-footer {
+    text-align: left;
+    padding-left: 127px;
+    padding-top: 24px;
+    color:#fff;
+}
+
+.right-footer {
+    text-align: right;
+    padding-right: 127px;
+    padding-top: 24px;
+    color:#fff;
+}
