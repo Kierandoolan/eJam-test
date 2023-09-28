@@ -1,0 +1,18 @@
+.banner {
+    background-color: #252F3D;
+    color:#fff;
+    font-size: small;
+}
+
+.heading {
+    font-size : medium; 
+}
+
+.main-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.step-section {
+    font-weight:400;
+    margin-bottom:40px;
+}
